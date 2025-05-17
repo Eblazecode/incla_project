@@ -16,7 +16,7 @@ const UserLogin = () => {
               src={'/image/logo2.png'}
               className="max-md:w-12 max-md:h-12 lg:h-[80px] lg:w-[80px] rounded-full"
             />
-            <h1 className="text-4xl lg:text-5xl mt-10 lg:mt-20 mb-1 lg:mb-3 2xl:text-6xl">NETPRO</h1>
+            <h1 className="text-4xl lg:text-5xl mt-10 lg:mt-20 mb-1 lg:mb-3 2xl:text-6xl">INCLA </h1>
             <p className="text-nowrap lg:text-xl 2xl:text-3xl">Education Management System</p>
             <div className="flex flex-col md:flex-row gap-7 md:gap-10 mt-24 md:mt-16">
               <Link href={'/auth/lecturerLogin'}><PrimaryButton className={'bg-white border-2 border-white w-full hover:bg-zinc-100 hover:scale-95'} textClass={'!text-black text-xs lg:text-sm 2xl:text-lg text-nowrap'}>LECTURER LOGIN</PrimaryButton></Link>

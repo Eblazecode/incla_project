@@ -21,11 +21,7 @@ export const navLink = [
     id: 4,
     name: "Academics",
   },
-  {
-    id: 5,
-    name: "News & Events",
-    href: "news",
-  },
+
 ];
 
 export const featureList = [

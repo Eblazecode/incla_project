@@ -12,8 +12,6 @@ export default async function Home() {
       <Hero />
       <FeaturesList />
       <HomeAbout />
-      <LatestUpdates />
-      <Testimonials />
       <HomeContact />
     </>
   );

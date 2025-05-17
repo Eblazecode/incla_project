@@ -24,50 +24,71 @@ const Footer = () => {
                             <p>(234)- 80 6475 8374</p>
                         </Link>
                     </div>
-                    <div className='flex flax-row gap-3'>
-                        <div><Link href={'https://www.facebook.com'}>
-                        <Image 
-                            width={30}
-                            height={30}
-                            alt='incla-facebook'
-                            src={'/image/social-icons/Facebook.png'}
-                            className='2xl:w-12 lg:w-8 md:max-lg:w-7 xl:w-6'
-                        />
-                        </Link></div>
-                        <div><Link href={'https://www.instagram.com'}>
-                        <Image 
-                            width={30}
-                            height={30}
-                            alt='incla-instagram'
-                            src={'/image/social-icons/Instagram.png'}
-                            className='2xl:w-12 lg:w-8 md:max-lg:w-7 xl:w-6'
-                        />
-                        </Link></div>
-                        <div><Link href={'https://www.x.com'}>
-                        <Image 
-                            width={30}
-                            height={30}
-                            alt='incla-twitterX'
-                            src={'/image/social-icons/TwitterX.png'}
-                            className='2xl:w-12 lg:w-8 md:max-lg:w-7 xl:w-6'
-                        />
-                        </Link></div>
-                        <div><Link href={'https://www.Linkedin.com'}>
-                        <Image 
-                            width={30}
-                            height={30}
-                            alt='incla-Linkedin'
-                            src={'/image/social-icons/LinkedIn.png'}
-                            className='2xl:w-12 lg:w-8 md:max-lg:w-7 xl:w-6'
-                        />
-                        </Link></div>
+                    <div className="flex flex-row gap-3">
+                        <div>
+                            <a
+                                href="https://www.facebook.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Image
+                                    width={30}
+                                    height={30}
+                                    alt="incla-facebook"
+                                    src="/image/social-icons/Facebook.png"
+                                    className="2xl:w-12 lg:w-8 md:max-lg:w-7 xl:w-6"
+                                />
+                            </a>
+                        </div>
+                        <div>
+                            <a
+                                href="https://www.instagram.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Image
+                                    width={30}
+                                    height={30}
+                                    alt="incla-instagram"
+                                    src="/image/social-icons/Instagram.png"
+                                    className="2xl:w-12 lg:w-8 md:max-lg:w-7 xl:w-6"
+                                />
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.x.com" target="_blank" rel="noopener noreferrer">
+                                <Image
+                                    width={30}
+                                    height={30}
+                                    alt="incla-twitterX"
+                                    src="/image/social-icons/TwitterX.png"
+                                    className="2xl:w-12 lg:w-8 md:max-lg:w-7 xl:w-6"
+                                />
+                            </a>
+                        </div>
+                        <div>
+                            <a
+                                href="https://www.linkedin.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Image
+                                    width={30}
+                                    height={30}
+                                    alt="incla-Linkedin"
+                                    src="/image/social-icons/LinkedIn.png"
+                                    className="2xl:w-12 lg:w-8 md:max-lg:w-7 xl:w-6"
+                                />
+                            </a>
+                        </div>
                     </div>
+
                 </div>
                 <div className='flex flex-col text-sm w-full gap:3 md:gap-5 2xl:gap-10 2xl:text-lg 2xl:leading-none xl:text-base font-light'>
                     <h1 className='font-normal 2xl:text-2xl'>INFORMATION</h1>
                     <Link href={'/about'}><Iconic text = '>>About us'/></Link>
                     <Link href={'/certificate'}><Iconic text = '>>Course'/></Link>
-                    <Link href={'/news'}><Iconic text = '>>News & events'/></Link>
+
                     
                 </div>
                 <div className='flex flex-col text-sm w-full gap:3 md:gap-5 2xl:gap-10 2xl:text-lg 2xl:leading-none xl:text-base font-light'>
@@ -85,6 +106,7 @@ const Footer = () => {
                         <p>Email: info@aicla.org.ng</p>
                     </Link>
                 </div>
+              {/*
                 <div className='flex flex-col text-sm w-full md:max-xl:w-[200%] gap:3 md:gap-5 2xl:gap-10 2xl:text-lg 2xl:leading-none xl:text-base font-light'>
                     <h1 className='font-normal 2xl:text-2xl'>SUBSCRIBE TO GET UPDATES</h1>
                     <p>Pellentesque eu porttitor odio. Nulla diam enim, interdum eu bibendum at, <br /> tempor quis massa. In purus lectus, ultrices.</p>
@@ -97,6 +119,7 @@ const Footer = () => {
                         </form>
                     </div>
                 </div>
+                */}
             </div>
         </div>
         

@@ -5,7 +5,7 @@ import { navLink } from "@/data/nav";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-
+;
 const Header = () => {
   // State to toggle the mobile menu
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -54,16 +54,19 @@ const Header = () => {
       }}
     >
       <nav className="h-24 z-10 flex items-center justify-between max-w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl 2xl:max-w-screen-2xl mx-auto px-3 w-full">
-        <div className="flex items-center gap-4 md:gap-7">
+
+        {/* Logo */}
+        <Link href="/" className="flex items-center gap-4 md:gap-7">
           <Image
-            src={"/image/logo.png"}
-            width={67}
-            height={85}
-            alt="logo"
-            className="w-10 h-14 md:w-16 md:h-20 object-cover"
+              src="/image/logo.png"
+              width={67}
+              height={85}
+              alt="logo"
+              className="w-10 h-14 md:w-16 md:h-20 object-cover"
           />
           <h1 className="text-2xl lg:text-4xl 2xl:text-6xl font-bold">INCLA</h1>
-        </div>
+        </Link>
+
 
         {/* Mobile Hamburger Icon */}
         <div
@@ -157,6 +160,7 @@ const Header = () => {
               </li>
             ))}
           </ul>
+        {/*
           <Link href={"contact"}>
             <PrimaryButton
               textClass={"!text-base lg:!text-lg 2xl:!text-2xl"}
@@ -165,6 +169,7 @@ const Header = () => {
               Contact Us
             </PrimaryButton>
           </Link>
+          */}
         </div>
 
         {/* Mobile Menu: Display when isMenuOpen is true */}
