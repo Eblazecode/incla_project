@@ -12,7 +12,10 @@ const HomeAbout = () => {
             >
                 <div className="flex flex-col justify-center p-5">
                     <h2 className="text-incla-brown font-bold mb-5 -mt-10 md:mt-0 font-robotoSlab text-lg lg:text-xl 2xl:text-3xl">ABOUT US</h2>
-                    <p className="md:leading-loose md:text-lg text-sm lg:text-lg 2xl:text-2xl">INCLA is a unique Institute of Consecrated Life in Africa owned by the Claretian Missionaries. It is an institute that offers specialization in Consecrated life. This institution was conceived for a re-sensitization in the study of Consecrated life, a call to rethink our faith, beliefs, and philosophy of life.</p>
+                    <p className="md:leading-loose md:text-lg text-sm lg:text-lg 2xl:text-2xl">INCLA is a unique Institute of
+                        Consecrated Life in Africa owned by the Claretian Missionaries. It is an institute that
+                        offers specialization in Consecrated life. This institution was conceived for a re-sensitization
+                        in the study of Consecrated life, a call to rethink our faith, beliefs, and philosophy of life.</p>
                     <PrimaryButton 
                         style={{
                             boxShadow: "0px 4px 4px 0px #00000040",

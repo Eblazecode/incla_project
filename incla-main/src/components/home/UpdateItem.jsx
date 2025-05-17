@@ -20,7 +20,8 @@ const UpdateItem = ({ image, category, title, content, href, className}) => {
           {content}
         </p>
         <Link href={href}>
-            <PrimaryButton className={`w-full lg:w-fit bg-incla-purple/90 hover:bg-incla-purple px-3 py-2 mt-2 2xl:h-16`} textClass={'lg:!text-sm 2xl:!text-xl'}>Read more </PrimaryButton>
+            <PrimaryButton className={`w-full lg:w-fit bg-incla-purple/90 hover:bg-incla-purple px-3 py-2 mt-2 2xl:h-16`}
+                           textClass={'lg:!text-sm 2xl:!text-xl'}>Read more </PrimaryButton>
         </Link>
       </div>
     </div>
